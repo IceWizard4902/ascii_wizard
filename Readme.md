@@ -27,7 +27,7 @@ img.colored(220, 2.2, None, None, True)
 ```
 
 ## Result
-![](example_doraemon.PNG)
+![](https://github.com/IceWizard4902/ascii_wizard/raw/main/example_doraemon.PNG)
 
 # Documentation
 
@@ -69,14 +69,14 @@ The method returns the ASCII representation (without color) of the image initial
 img = ascii_wizard.AsciiWizard("elephant.jpg")
 img.grayscale(150, 2.2, None, (0, 255, 255), True)
 ```
-![](example_elephant_blue.PNG)
+![](https://github.com/IceWizard4902/ascii_wizard/raw/main/example_elephant_blue.PNG)
 
 **Without background color**
 ```Python
 img = ascii_wizard.AsciiWizard("elephant.jpg")
 img.grayscale(150, 2.2, None, None, True)
 ```
-![](example_elephant_grey.PNG)
+![](https://github.com/IceWizard4902/ascii_wizard/raw/main/example_elephant_grey.PNG)
 
 
 ## `colored()`
@@ -103,4 +103,4 @@ The method returns the ASCII representation (with color) of the image initialize
 img = ascii_wizard.AsciiWizard("chuamotcot.jpg")
 img.colored(200, 2.2, None, None, True)
 ```
-![](example_chuamotcot.PNG)
+![](https://github.com/IceWizard4902/ascii_wizard/raw/main/example_chuamotcot.PNG)
