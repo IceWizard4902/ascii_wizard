@@ -50,7 +50,7 @@ def img_to_ascii(img, char, background, colored):
         ascii_img_line = ""
 
         for w in range(img_width):
-            brightness = (255 - grayscale_img.getpixel((w, h))) / 255
+            brightness = grayscale_img.getpixel((w, h)) / 255
             r, g, b = img.getpixel((w, h))[:3]
             ascii_char = chars[int(brightness * (len(chars) - 1))]
 
