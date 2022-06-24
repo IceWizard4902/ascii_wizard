@@ -2,7 +2,7 @@ from PIL import Image
 import os 
 import sys 
 
-__VERSION__ = 0.1
+__VERSION__ = 1.2
 
 # The ASCII Character Ramp. See details at http://paulbourke.net/dataformats/asciiascii_img/
 # This is a self-sourced ramp, there should be a few online
